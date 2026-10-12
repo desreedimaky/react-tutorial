@@ -1,32 +1,74 @@
-# React + TypeScript + Vite
+# React Tutorial
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A beginner-friendly React project built while learning React with TypeScript and Vite.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project helps me practise the fundamentals of React, including components, props, state, event handling, and rendering lists. It includes reusable components styled with Bootstrap.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Displays a list of cities.
+- Highlights a city when it is selected.
+- Uses props to pass data and functions between components.
+- Includes a reusable Button component.
+- Displays a dismissible Alert component.
+- Uses React state to manage user interactions.
 
-## Expanding the Oxlint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React
+- TypeScript
+- Vite
+- Bootstrap
+- HTML and CSS
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Getting Started
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Prerequisites
+
+Make sure you have Node.js and npm installed.
+
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/desreedimaky/react-tutorial.git
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd react-tutorial
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## Available Commands
+
+- `npm run dev` — starts the development server.
+- `npm run build` — creates a production build.
+- `npm run preview` — previews the production build locally.
+
+## What I'm Learning
+
+I am using this project to improve my understanding of React and TypeScript, practise reusable components, and build confidence as a junior software developer.
+
+## Author
+
+Desiree Madiba
+
+GitHub: [@desreedimaky](https://github.com/desreedimaky)
